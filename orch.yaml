@@ -1,0 +1,10 @@
+name: my_exp_name
+reqCores: 16
+reqGpus: 4
+reqRamGbytes: 200
+options:
+  resources:
+    gpu-mem: 16
+volumes:
+    - /path/to/data/:/path/to/data/
+    - /path/to/exp/:/path/to/exp/
